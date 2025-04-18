@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ElectroCeil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-text">ElectroCeil</span>
+                <span class="tagline">Premium Ceiling Solutions</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="products.html" class="active" target="_blank">Products</a></li>
+                <li><a href="about.html" target="_blank">About Us</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-header">
+            <h1>Our Products</h1>
+            <div class="filter-options">
+                <div class="search-box">
+                    <input type="text" placeholder="Search products...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Products</button>
+                    <button class="filter-btn" data-filter="lights">Lights</button>
+                    <button class="filter-btn" data-filter="fans">Fans</button>
+                    <button class="filter-btn" data-filter="smart">Smart Home</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            <div class="product-card" data-category="lights smart">
+                <div class="product-badge">New</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Smart LED Ceiling Light">
+                </div>
+                <div class="product-info">
+                    <h3>Smart LED Ceiling Light</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(45 reviews)</span>
+                    </div>
+                    <div class="product-features">
+                        <span class="feature-tag">Smart Home</span>
+                        <span class="feature-tag">Color Changing</span>
+                        <span class="feature-tag">Dimmable</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$99.99</span>
+                        <span class="original-price">$129.99</span>
+                        <span class="discount">23% OFF</span>
+                    </div>
+                    <div class="product-availability">
+                        <i class="fas fa-check-circle"></i>
+                        <span>In Stock (25 units)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lights">
+                <div class="product-badge">Best Seller</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Modern Chandelier">
+                </div>
+                <div class="product-info">
+                    <h3>Modern Chandelier</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(32 reviews)</span>
+                    </div>
+                    <div class="product-features">
+                        <span class="feature-tag">Crystal Accents</span>
+                        <span class="feature-tag">Dimmable</span>
+                        <span class="feature-tag">LED Technology</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$199.99</span>
+                        <span class="original-price">$249.99</span>
+                        <span class="discount">20% OFF</span>
+                    </div>
+                    <div class="product-availability">
+                        <i class="fas fa-check-circle"></i>
+                        <span>In Stock (15 units)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lights">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Recessed Ceiling Light">
+                </div>
+                <div class="product-info">
+                    <h3>Recessed Ceiling Light</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(28 reviews)</span>
+                    </div>
+                    <div class="product-features">
+                        <span class="feature-tag">Adjustable</span>
+                        <span class="feature-tag">Energy Efficient</span>
+                        <span class="feature-tag">Modern Design</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$79.99</span>
+                    </div>
+                    <div class="product-availability">
+                        <i class="fas fa-check-circle"></i>
+                        <span>In Stock (40 units)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="fans">
+                <div class="product-badge">Limited Time</div>
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Ceiling Fan with Light">
+                </div>
+                <div class="product-info">
+                    <h3>Ceiling Fan with Light</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(56 reviews)</span>
+                    </div>
+                    <div class="product-features">
+                        <span class="feature-tag">Remote Control</span>
+                        <span class="feature-tag">LED Light</span>
+                        <span class="feature-tag">Energy Efficient</span>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$149.99</span>
+                        <span class="original-price">$179.99</span>
+                        <span class="discount">17% OFF</span>
+                    </div>
+                    <div class="product-availability">
+                        <i class="fas fa-check-circle"></i>
+                        <span>In Stock (20 units)</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="view-details">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="special-offers">
+            <h2>Special Offers</h2>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-content">
+                        <h3>Summer Sale</h3>
+                        <p>Get 25% off on all ceiling fans</p>
+                        <span class="offer-timer">Ends in: 5 days</span>
+                        <button class="offer-button">Shop Now</button>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-content">
+                        <h3>Smart Home Bundle</h3>
+                        <p>Buy 2 smart lights, get 1 free</p>
+                        <span class="offer-timer">Limited Time</span>
+                        <button class="offer-button">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Walvekar Electronics</h3>
+                <p>Your trusted destination for premium electronic products</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: walvekarelectronics99@gmail.com</p>
+                <p>Phone: 9226404779</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 1960 Walvekar Electronics Shop</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
