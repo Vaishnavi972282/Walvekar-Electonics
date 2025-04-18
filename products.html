@@ -11,19 +11,24 @@
     <header>
         <nav>
             <div class="logo">
-                <span class="logo-text">ElectroCeil</span>
-                <span class="tagline">Premium Ceiling Solutions</span>
+                <a href="index.html">ElectroCeil</a>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html" target="_blank">Home</a></li>
-                <li><a href="products.html" class="active" target="_blank">Products</a></li>
-                <li><a href="about.html" target="_blank">About Us</a></li>
-                <li><a href="contact.html" target="_blank">Contact</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search products...">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="#" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
             </div>
         </nav>
     </header>
@@ -36,23 +41,25 @@
                     <input type="text" placeholder="Search products...">
                     <i class="fas fa-search"></i>
                 </div>
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">All Products</button>
-                    <button class="filter-btn" data-filter="lights">Lights</button>
-                    <button class="filter-btn" data-filter="fans">Fans</button>
-                    <button class="filter-btn" data-filter="smart">Smart Home</button>
+                <div class="category-links">
+                    <a href="#refrigerator" class="category-link">Refrigerators</a>
+                    <a href="#fan" class="category-link">Ceiling Fans</a>
+                    <a href="#washing-machine" class="category-link">Washing Machines</a>
+                    <a href="#cooler" class="category-link">Coolers</a>
+                    <a href="#tv" class="category-link">LED TVs</a>
                 </div>
             </div>
         </section>
 
         <section class="products-grid">
+            <h2 id="refrigerator" class="category-title">Refrigerators</h2>
             <div class="product-card" data-category="refrigerator">
                 <div class="product-badge">New</div>
                 <div class="product-image">
                     <img src="https://m.media-amazon.com/images/I/71Q4hVqY3kL._AC_UF1000,1000_QL80_.jpg" alt="Refrigerator">
                 </div>
                 <div class="product-info">
-                    <h3>Refrigerator</h3>
+                    <h3>Double Door Refrigerator</h3>
                     <div class="product-rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -82,6 +89,7 @@
                 </div>
             </div>
 
+            <h2 id="fan" class="category-title">Ceiling Fans</h2>
             <div class="product-card" data-category="fan">
                 <div class="product-badge">Best Seller</div>
                 <div class="product-image">
@@ -231,15 +239,15 @@
                 <div class="offer-card">
                     <div class="offer-content">
                         <h3>Summer Sale</h3>
-                        <p>Get 25% off on all ceiling fans</p>
+                        <p>Get 25% off on all coolers and fans</p>
                         <span class="offer-timer">Ends in: 5 days</span>
                         <button class="offer-button">Shop Now</button>
                     </div>
                 </div>
                 <div class="offer-card">
                     <div class="offer-content">
-                        <h3>Smart Home Bundle</h3>
-                        <p>Buy 2 smart lights, get 1 free</p>
+                        <h3>Festive Season</h3>
+                        <p>Buy any two appliances, get 15% off</p>
                         <span class="offer-timer">Limited Time</span>
                         <button class="offer-button">Shop Now</button>
                     </div>
